@@ -1,0 +1,42 @@
+/* ЗАДАНИЕ */
+
+/* В СПИСКЕ */
+
+/*
+1. Первый жлемент должен быть розовым цветом
+2. Последний элемент должен быть зеленым
+3. При наведении на ссылку она должна быть желтой
+4. Фоны должны быть сдедующими
+	home - aqua
+	news - red
+  contact - blue
+  about - gray
+*/
+
+ul>li:first-child>a {
+  color: pink;
+}
+
+ul>li:last-child>a {
+  color: green;
+}
+
+ul>li:first-child>a:hover, ul>li:last-child>a:hover, a:hover {
+  color: yellow;
+}
+
+.bg_aqua {
+background-color: aqua;
+}
+
+.bg_red {
+background-color: red;
+}
+
+.bg_blue {
+background-color: blue;
+}
+
+.bg_gray {
+background-color: gray;
+}
